@@ -1,6 +1,6 @@
 const express = require('express');
-const db = require('./src/config/index.js');
-const apiRoute = require('./src/routes/router.js');
+const db = require('./config/index.js');
+const apiRoute = require('./routes/router.js');
 const cors = require('cors');
 const PORT = 3000;
 
